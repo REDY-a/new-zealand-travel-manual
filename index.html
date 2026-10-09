@@ -1,0 +1,171 @@
+<!-- =========================================================
+STEP 1: Add the required HTML5 skeleton
+========================================================= -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Zealand Travel Guide</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <!-- =========================================================
+    STEP 2: Build the "top area" (site name + navigation) using simple HTML
+    ========================================================= -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <p class="brand">NZ Travel Guide<span class="dot">.</span></p>
+        <nav class="site-nav">
+          <a href="content/scenic-spots.html">Scenic Spots</a>
+          <a href="content/food.html">Food</a>
+          <a href="content/shopping.html">Shopping</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================================================
+      STEP 3: Hero section + "Get Started button" as a link
+      ========================================================= -->
+      <section class="hero">
+        <div class="container hero-content">
+          <h1>Plan Your New Zealand Adventure</h1>
+          <p class="hero-subhead">
+            From glowworm caves to glacier lakes, get everything you need to
+            travel New Zealand with confidence.
+          </p>
+          <a class="btn btn-dark" href="content/scenic-spots.html">Get Started</a>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      STEP 4: Features section (3 blocks) + featured content section
+      ========================================================= -->
+      <section class="features">
+        <div class="container features-grid">
+          <div class="feature">
+            <span class="icon"><i class="fa-solid fa-earth-oceania" aria-hidden="true"></i></span>
+            <h2>Scenic Spots</h2>
+            <p>
+              Discover must-see destinations across the North and South
+              Islands, from geothermal Rotorua to the fiords of Milford Sound.
+            </p>
+            <a href="content/scenic-spots.html">Explore scenic spots</a>
+          </div>
+          <div class="feature">
+            <span class="icon"><i class="fa-solid fa-utensils" aria-hidden="true"></i></span>
+            <h2>Food</h2>
+            <p>
+              Sample iconic Kiwi dishes, from fresh green-lipped mussels to a
+              classic pavlova.
+            </p>
+            <a href="content/food.html">Explore food</a>
+          </div>
+          <div class="feature">
+            <span class="icon"><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i></span>
+            <h2>Shopping</h2>
+            <p>
+              Find authentic souvenirs, from Maori-carved pounamu to premium
+              merino wool.
+            </p>
+            <a href="content/shopping.html">Explore shopping</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured">
+        <div class="container">
+          <h2 class="section-title">Featured Destination: Milford Sound</h2>
+          <p class="section-lede">
+            Often called the eighth wonder of the world, Milford Sound's sheer
+            cliffs, cascading waterfalls, and resident wildlife make it the
+            single most unforgettable stop on any South Island itinerary.
+          </p>
+          <img
+            class="media"
+            src="images/scenic-spots/Milford-Sound.jpg"
+            alt="Mitre Peak and the surrounding mountains reflected in the calm water of Milford Sound at dawn"
+          >
+          <p class="section-lede">
+            <a href="content/scenic-spots.html#south-island">See South Island spots</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- =========================================================
+      STEP 5: Two secondary content blocks + CTA section
+      ========================================================= -->
+      <section class="secondary">
+        <div class="container secondary-grid">
+          <article class="card">
+            <div class="card-text">
+              <h3>Green-lipped Mussels</h3>
+              <p>
+                A New Zealand native, usually steamed and served simply with
+                garlic butter or a white wine broth.
+              </p>
+              <a class="btn btn-outline" href="content/food.html">Read more about mussels</a>
+            </div>
+            <img
+              class="card-image"
+              src="images/food/Green-lipped-mussels.jpg"
+              alt="A plate of steamed green-lipped mussels with herbs and buttered bread"
+            >
+          </article>
+          <article class="card">
+            <div class="card-text">
+              <h3>Pavlova</h3>
+              <p>
+                A crisp meringue dessert topped with whipped cream and fresh
+                fruit — a staple at Kiwi celebrations.
+              </p>
+              <a class="btn btn-outline" href="content/food.html">Read more about pavlova</a>
+            </div>
+            <img
+              class="card-image"
+              src="images/food/pavlova.jpeg"
+              alt="A pavlova topped with whipped cream, kiwifruit, raspberries, and blueberries"
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container cta-inner">
+          <h2>Heard enough?</h2>
+          <a class="btn btn-dark" href="content/scenic-spots.html">Start Planning</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+    STEP 6: Footer
+    ========================================================= -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <p>&copy; 2026 NZ Travel Guide. All rights reserved.</p>
+        </div>
+        <nav class="footer-cols" aria-label="Footer links">
+          <div class="footer-col">
+            <h2>Explore</h2>
+            <a href="content/scenic-spots.html">Scenic Spots</a>
+            <a href="content/food.html">Food</a>
+            <a href="content/shopping.html">Shopping</a>
+          </div>
+          <div class="footer-col">
+            <h2>Plan</h2>
+            <a href="content/transportation.html">Transportation</a>
+          </div>
+        </nav>
+      </div>
+    </footer>
+
+  </body>
+</html>
